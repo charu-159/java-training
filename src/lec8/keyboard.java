@@ -1,7 +1,7 @@
 //use of this v/s super keyword
 //super keyword-parent k variable ko access krta hai
 //this - current variable ko access karega
-class parent{
+/*class parent{
     parent(){
         int x=10;
         System.out.println("parent constructor:"+x);
@@ -31,3 +31,6 @@ class keyboard{
         c.show();
     }
 }
+
+void main() {
+}*/
