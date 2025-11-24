@@ -1,4 +1,4 @@
-public class Main {
+public class first {
     public static void main(String[] args) {
         System.out.println("setup successfully");
         //byte a= 129;
