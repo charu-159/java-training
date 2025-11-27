@@ -26,6 +26,7 @@ import java.util.Scanner;
                 ArrayList<Student> list = new ArrayList<>();
                 list.add(new Student("charu",2));
                 list.add(new Student("bhooms",1));
+                list.add(new Student("gul",5));
                 Collections.sort(list);
                 System.out.println(list);
             }
