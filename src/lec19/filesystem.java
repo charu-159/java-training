@@ -96,12 +96,7 @@ public class filesystem {
         //File file=new File("new.txt);
     }
 }*/
-    //public static void main(String[] args) {
-
-
-        //writeData("new data");
-    //}
-//}
+    //DATA DELETE
 
 
 
