@@ -39,8 +39,8 @@ public class threadingpractice {
                         }
                     }
                 }  */
-// 3rd question
-package java2;
+// 3rd question     - how do you get state of a given hread in java
+/*package java2;
           class MyThread extends Thread {
               public void run() {
                   try {
@@ -70,25 +70,30 @@ package java2;
 
                   System.out.println("State after finish: " + t.getState());
               }
-          }
+          }   */
 
 
+          //4th-how do you get raference to the current thread in java
+             package java2;
+           class MyThread extends Thread {
+               public void run() {
+                   Thread t = Thread.currentThread();  // current thread ka reference
+                   System.out.println("Current thread: " + t.getName());
+                   System.out.println("Priority: " + t.getPriority());
+               }
+           }
 
+           public class threadingpractice {
+               public static void main(String[] args) {
+                   MyThread t1 = new MyThread();
+                   t1.setName("CharuThread");
+                   t1.start();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                   // main thread ka reference
+                   Thread mainThread = Thread.currentThread();
+                   System.out.println("Main thread: " + mainThread.getName());
+               }
+           }
 
 
 
