@@ -1,6 +1,6 @@
 package lec21;
 
-public class jump {
+public class  jump {
 
     public static boolean canJump(int[] nums) {
         int max = 0;
