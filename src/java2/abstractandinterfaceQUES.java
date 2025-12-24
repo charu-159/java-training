@@ -63,3 +63,4 @@ public class abstractandinterfaceQUES {
         // t.browseInternet(); ❌ Not allowed — reference is of type Telephone
     }
 }
+//
