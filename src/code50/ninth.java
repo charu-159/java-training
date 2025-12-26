@@ -28,7 +28,7 @@ public class ninth {
             countDrops++;
         }
 
-        // Valid only if exactly one drop
+        // Valid only if exactly one drops
         return countDrops == 1;
     }
 }
