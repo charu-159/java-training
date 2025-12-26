@@ -1,21 +1,22 @@
 //lect7
 //constructor(different types)
-class car2{
-    public car2(){
+class CAR2{
+    public CAR2(){
         System.out.println("hello");
     }
-    public car2(int x){
+    public CAR2(int x){
         System.out.println(x);
     }
-    public car2(int x,int y){
+    public CAR2(int x,int y){
         System.out.println(x+y);
     }
 }
 
 class constdifftype{
     public static void main(String[] args){
-        car2 c1=new car2();
-        car2 c2=new car2(7);
-        car2 c3=new car2(7,8);
+
+       CAR2 c1=new CAR2();
+       CAR2 C2=new CAR2(7);
+        CAR2 c3=new CAR2(7,8);
     }
 }
