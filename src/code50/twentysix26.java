@@ -1,0 +1,25 @@
+//count and say problem
+package code50;
+public class twentysix26 {
+    public String countandsay(int n){
+        String result="1";
+        for(int i=2;i<=n;i++){
+            String temp="";
+            int count =1;
+            for(int j=1;j<result.length();j++){
+                if(result.charAt(j)==result.charAt(j-1)){
+                    count++;
+                }else{
+                    temp=temp + count+result.charAt(j-1);
+                    count=1;
+                }
+            }
+            temp = temp + count + result.charAt(result.length() - 1);
+            result = temp;
+        }
+
+        return result;
+        }
+
+    }
+
