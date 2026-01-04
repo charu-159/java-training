@@ -12,24 +12,24 @@ public class ninth {
         }
     }
 
-    static boolean isSortedAndRotated(int[] arr) {
+    public static boolean isSortedAndRotated(int[] arr) {
         int n = arr.length;
-        int countDrops = 0;
+        int count = 0;
 
         // Check consecutive pairs
         for (int i = 0; i < n - 1; i++) {
             if (arr[i] > arr[i + 1]) {
-                countDrops++;
+                count++;
             }
         }
 
         // Also check last and first (rotation wrap-around)
         if (arr[n - 1] > arr[0]) {
-            countDrops++;
+            count++;
         }
 
         // Valid only if exactly one drops
-        return countDrops == 1;
+        return count == 1;
     }
 }
 
