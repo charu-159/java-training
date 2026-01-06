@@ -1,10 +1,19 @@
 //guess no.
 package leetcode;
-public class leetcode374 {
-    public static  int guessno(int nums){
 
-    }
-    public static void main(String[] args) {
-        System.out.println("enter the value");
+import java.util.Map;
+import java.util.HashMap;
+
+public class leetcode374{
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
+            }
+            map.put(nums[i], i);
+        }
+        return new int[] {}; // return empty array if no solution
     }
 }
