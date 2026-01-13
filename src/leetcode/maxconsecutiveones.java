@@ -1,3 +1,4 @@
+//max consecutive ones
 package leetcode;
 public class maxconsecutiveones {
     public   int consecutiveones(int[] nums) {
