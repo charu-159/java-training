@@ -4,7 +4,7 @@ import java.util.*;
 public class password {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-        String correctpassword = "charu-159";
+        String correctpassword = "charu";
         int match = 1;
         int i = 0;
 
