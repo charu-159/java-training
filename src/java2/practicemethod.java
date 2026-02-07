@@ -20,4 +20,4 @@ public class practicemethod {
         greet("Charu");
     }
 }
-//
+/// /
