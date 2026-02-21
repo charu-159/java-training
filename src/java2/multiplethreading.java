@@ -34,4 +34,4 @@ public class multiplethreading {
         t1.start();
         t2.start();
     }
-}
+}//
