@@ -33,7 +33,7 @@ public class diamondproblem {
         D obj = new D();
         obj.show();
     }
-}
+}//
 
 ;
 
