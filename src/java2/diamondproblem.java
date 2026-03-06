@@ -34,7 +34,7 @@ public class diamondproblem {
         obj.show();
     }
 }//
-
+//
 ;
 
 
