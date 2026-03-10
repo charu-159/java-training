@@ -56,4 +56,4 @@ public class matrixmultiplication {
             System.out.println();
         }
     }
-}
+}//
