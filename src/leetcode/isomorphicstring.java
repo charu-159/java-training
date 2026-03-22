@@ -34,7 +34,7 @@ public class isomorphicstring {
             System.out.println(obj.isomorphic(s, t)); // Output: true
         }
     }
-
+//
 
 
 
