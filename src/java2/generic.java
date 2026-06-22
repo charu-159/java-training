@@ -34,4 +34,4 @@ public class generic {
         System.out.println("Generic value: " + str);
     }
 }
-
+//

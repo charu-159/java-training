@@ -82,8 +82,8 @@ public class transpose {
 
         }
         //wave from spiral
-        int top = 0, bottom = rows - 1;
-        int left = 0, right = cols - 1;
+
+
 
 
 
