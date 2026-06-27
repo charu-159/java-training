@@ -1,4 +1,5 @@
-class Solution {
+ package java2;
+class mergestone {
     public int mergeStones(int[] stones, int k) {
         int n = stones.length;
         if ((n - 1) % (k - 1) != 0) return -1; // impossible case
